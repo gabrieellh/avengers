@@ -200,6 +200,7 @@ footer {
 @media (max-width: 910px) {
  header {
     flex-direction: column;
+    width: 100%;
     align-items: center;
     font-size: 14px;
  }
@@ -216,7 +217,6 @@ footer {
  .logo-avengers {
     height: 200px;
     width: 370px;
-    align-items: center;
  }
 
  h1 {
@@ -225,6 +225,7 @@ footer {
 
  .infos {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
  }
 
@@ -236,11 +237,13 @@ footer {
 
  .infos-2 {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
  }
 
  .cards-items {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
  }
 
