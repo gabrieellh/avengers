@@ -12,11 +12,9 @@ html {
 }
 
 body {
-
     background-color: #121214;
     overflow-x: hidden;
-    z-index: 1;
-}
+}   
 
 html {
     scroll-behavior: smooth;
@@ -29,7 +27,6 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    position: fixed;
     width: 100%;
 }
 
@@ -173,7 +170,7 @@ footer {
     border-radius: 0% 100% 90% 100% / 90% 90% 100% 0% ;
     padding: 2rem;
     height: 400px;
-    width: 50%;
+    width: 100%;
 } 
 
 .title-footer {
@@ -191,8 +188,8 @@ footer {
 }
 
 .icons {
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     transition: transform .1s;
    
 }
@@ -212,13 +209,15 @@ footer {
  }
 
  .icon-avengers {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
  }
 
  .logo-avengers {
     height: 200px;
-    width: 350px;
+    width: 370px;
+    align-items: center;
+    justify-content: center;
  }
 
  h1 {
@@ -227,6 +226,8 @@ footer {
 
  .infos {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
  }
 
  .img-avengers {
@@ -237,10 +238,14 @@ footer {
 
  .infos-2 {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 
  .cards-items {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
 
  .footer {
